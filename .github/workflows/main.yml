@@ -38,4 +38,4 @@ jobs:
         uses: Azure/aks-set-context@v2.1
         with:
           method: kubeconfig
-          kubeconfig: ${{ secret.K8S_KUBECONFIG }}
+          kubeconfig: ${{ secrets.K8S_KUBECONFIG }}
