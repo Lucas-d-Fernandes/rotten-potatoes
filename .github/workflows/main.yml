@@ -22,7 +22,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: 
-            lucassouza/rotten:latest
+            lucassouza/rotten-potatoes:latest
             lucassouza/rotten:${{ github.run_number}} 
           
       
