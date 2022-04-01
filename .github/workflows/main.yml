@@ -22,7 +22,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: 
-            luc4sd3s0uz4/rotten-potatoes:latest
-            luc4sd3s0uz4/rotten-potatoes:${{github.run_number}}
+            luc4sd3s0uz4/rotten:latest
+            luc4sd3s0uz4/rotten:v1
           
       
