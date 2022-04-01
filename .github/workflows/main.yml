@@ -7,10 +7,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       
       - name: Docker Login
-        uses: docker/login-action@v1.14.1
+        uses: docker/login-action@v1.10.0
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_PWD }}
@@ -22,7 +22,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: 
-            lucassouza/rotten-potatoes:latest
-            lucassouza/rotten:${{ github.run_number}} 
+            luc4sd3s0uz4/rotten-potatoes:latest
+            luc4sd3s0uz4/rotten-potatoes:${{ github.run_number}} 
           
       
