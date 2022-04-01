@@ -22,7 +22,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: 
-            luc4sd3s0uz4/rotten:latest
-            luc4sd3s0uz4/rotten:v1
+            Lucas-d-Fernandes/rotten:latest
+            Lucas-d-Fernandes/rotten:v1
           
       
