@@ -21,7 +21,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             luc4sd3s0uz4/rotten:latest
             luc4sd3s0uz4/rotten:${{ github.run_number }}
             
