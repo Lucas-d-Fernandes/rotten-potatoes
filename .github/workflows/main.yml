@@ -23,6 +23,6 @@ jobs:
           push: true
           tags: 
             luc4sd3s0uz4/rotten-potatoes:latest
-            luc4sd3s0uz4/rotten-potatoes:${{ github.run_number}} 
+            luc4sd3s0uz4/rotten-potatoes:v1
           
       
