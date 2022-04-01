@@ -1,5 +1,5 @@
 FROM node:14.17.5
-WORKDIR /aula01
+WORKDIR /app
 COPY package.json ./
 RUN npm install
 COPY . .
